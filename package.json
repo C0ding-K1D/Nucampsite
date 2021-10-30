@@ -1,21 +1,24 @@
 {
   "name": "nucampsite",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site Nucamp",
+  "description": "Git and NPM",
   "main": "index.html",
   "scripts": {
-    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server"
   },
-  "author": "Matthew",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C0ding-K1D/Nucampsite.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C0ding-K1D/Nucampsite/issues"
+  },
+  "homepage": "https://github.com/C0ding-K1D/Nucampsite#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
   }
 }
